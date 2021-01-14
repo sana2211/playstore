@@ -22,8 +22,6 @@ data.sort((a, b) => a[`${sort}`] - b[`${sort}`] );
   }
 }
 )
-app.get('/',(req,res)=>{ res.send('Hello, world!') })
-app.get('/api/user',(req,res)=>{ res.send([ { "id": 1, "username": "divyanat", "fullname": "Divya Natarajan" }, { "id": 2, "username": "dtarg", "fullname": "Daenerys Targaryen" }, { "id": 3, "username": "uragnar", "fullname": "Uhtred Ragnarsson" }, { "id": 4, "username": "bobbrown", "fullname": "bob brown" } ]) })
 
 
 
